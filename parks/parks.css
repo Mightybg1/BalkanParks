@@ -1,25 +1,31 @@
-.title{
-    text-align:center;
-    font-size:20px
+.title {
+    text-align: center;
+    font-size: 20px
 }
-.divcenter{
+
+.divcenter {
     width: 50%;
     margin: auto;
 }
-.divtext{
-    text-align:center;
-    font-size:21px;
-    margin-bottom:auto;
+
+.divtext {
+    text-align: center;
+    font-size: 21px;
+    margin-bottom: auto;
 }
-.divtext2{
-    text-align:center;
-    font-size:21px;
-    margin:auto;
+
+.divtext2 {
+    text-align: center;
+    font-size: 21px;
+    margin: auto;
 }
-.container1{
-    margin:0;
+
+.container1 {
+    margin: 0px 5px 0px 5px;
 }
-.relef1{
-    font-size:21px;
-    text-align:center;
+
+.relef1 {
+    font-size: 21px;
+    text-align: center;
 }
+

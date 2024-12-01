@@ -8,7 +8,7 @@ ul {
     display: flex;
     flex-direction: row;
     height:50px;
-    background-color: rgba(45, 248, 96, 0.836);
+    background-color: rgba(45, 248, 96, 1);
     gap: 7.5vw;
     justify-content: center;
     margin-top: 0;

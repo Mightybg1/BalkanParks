@@ -4,12 +4,65 @@
 <head>
     <link rel="stylesheet" href="../home/home.css">
     <link rel="stylesheet" href="../parks/parks.css">
+
+    <style>
+        .dropbtn {
+          background-color:rgba(45, 248, 96, 1);
+          color: rgb(0, 0, 0);
+          padding: 16px;
+          font-size: 16px;
+          border: none;
+          cursor: pointer;
+          text-decoration:none;
+          font-family: 'Courier New', Courier, monospace;
+        }
+        .dropbtn:hover{
+            background-color: rgb(34, 202, 76);
+        }
+        
+        .dropdown {
+          position: relative;
+          display: inline-block;
+        }
+        
+        .dropdown-content {
+          display: none;
+          position: absolute;
+          background-color: rgba(45, 248, 96, 1);
+          min-width: 160px;
+          box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+          z-index: 1;
+        }
+        
+        .dropdown-content a {
+          color: black;
+          padding: 12px 16px;
+          text-decoration: none;
+          display: block;
+        }
+        
+        .dropdown-content a:hover {background-color:rgb(34, 202, 76)}
+        
+        .dropdown:hover .dropdown-content {
+          display: block;
+        }
+        
+        .dropdown:hover .dropbtn {
+          background-color: rgb();
+        }
+        </style>
 </head>
 
 <body>
     <ul>
         <li><a href="../home/home.html">Начало</a></li>
-        <li><a href="../parks/parks.html">Паркове</a></li>
+        <div class="dropdown">
+            <button class="dropbtn">Паркове</button>
+            <div class="dropdown-content">
+                <a href="parks.html">НП "Централен Балкан"</a>
+                <a href="parkTwo.html">Втори парк</a>
+            </div>
+        </div>
         <li><a href="../gallery/gallery.html">Галерия</a></li>
         <li><a href="../contacts/contacts.html">Контакти</a></li>
     </ul>
@@ -48,7 +101,7 @@
         </div>
     </div>
     <hr style="margin-top:0; height:1px; background-color:rgb(0, 0, 0);">
-    <div>
+    <div class="container1">
         <div class="title">
             <h1>Релеф</h1>
         </div>
@@ -80,14 +133,31 @@
                 </p>
             </div>
         </div>
-        <hr style="margin-top:0; height:1px; background-color:rgb(0, 0, 0);">
+    </div>
+    <hr style="margin-top:0; height:1px; background-color:rgb(0, 0, 0);">
+    <div class="container1">
         <div>
             <div class="title">
                 <h1>Климат</h1>
             </div>
             <div><img src="../photos/пролет централен балкан.jpg" alt="пролет централен балкан"
-                    style="height: auto;width:200px;">
-                    <img src="../photos/зима централен балкан.jpg" alt="зима централен балкан" style="height:auto; width:200px;">
+                    style="float:left;height: auto;width:200px;">
+                <img src="../photos/зима централен балкан.jpg" alt="зима централен балкан"
+                    style="float:right;height:auto; width:200px;">
+            </div>
+            <div>
+                <p>НП „Централен Балкан“ попада в Умерено-континенталната климатична област, Умерено-континенталната и
+                    Преходно-континенталната климатични подобласти. Умерено-континенталната климатична подобласт обхваща
+                    основно планинския климатичен район и съвсем ограничено в северната част и Предбалканския климатичен
+                    район. Планинския климатичен район обхваща по-голяма част от територията на НП при надморска
+                    височина
+                    над 1 000 м.н.р
+                </p>
+            </div>
+            <div>
+                <p>
+
+                </p>
             </div>
         </div>
     </div>
