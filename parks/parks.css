@@ -59,3 +59,22 @@ p{
     justify-content: center;
     gap:150px;
 }
+.lastButton{
+    background-color:rgb(38, 252, 145);
+    border:1px solid black;
+    height:50px;
+    width:200px;
+    margin-bottom:10px;
+    font-size:20px;
+}
+.positioning{
+    display:flex;
+    justify-content: center;
+}
+.lastButton2{
+    background-color:rgb(38, 252, 145);
+    border:1px solid black;
+    height:50px;
+    width:200px;
+    font-size:20px;
+}

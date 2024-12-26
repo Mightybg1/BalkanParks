@@ -1,6 +1,8 @@
 body {
     margin: 0;
     padding: 0;
+    font-family:'Times New Roman', Times, serif;
+    background-color:rgb(255, 246, 208);
 }
 
 ul {
@@ -24,7 +26,6 @@ li {
 li a {
     text-decoration: none;
     color: rgb(0, 0, 0);
-    font-family: 'Courier New', Courier, monospace;
     padding: 0px 20px 0px;
     font-size: 1vw;
 }
