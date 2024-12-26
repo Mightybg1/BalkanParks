@@ -30,15 +30,58 @@ form {
     border: 1px solid black;
     border-radius: 15px;
 }
-.info{
-    display:flex;
+
+.info {
+    display: flex;
     flex-direction: column;
-    gap:20px;
+    gap: 20px;
     justify-content: start;
 }
-.info-container{
-    display:flex;
+
+.info-container {
+    display: flex;
     flex-direction: row;
     justify-content: center;
-    width:100%;
+    width: 100%;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: start;
+}
+
+.info-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.pclass1 {
+    vertical-align: top;
+    display: inline-block;
+}
+
+.aligning {
+    display: flex;
+    justify-content: center;
+    gap: 300px;
+}
+
+.aligning1 {
+    display: flex;
+    justify-content: center;
+    gap: 400px;
+}
+.text{
+    border:1px solid black;
+    padding-left:150px;
+    padding-right:150px;
+}
+.tableborder{
+    border-top:none;
+    width:297px;
+
 }

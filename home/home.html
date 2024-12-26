@@ -2,6 +2,7 @@
 <html>
 
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=0.7">
     <link rel="stylesheet" href="home.css">
 
     <style>
@@ -70,17 +71,36 @@
                 <a href="../parks/parkTwo.html">ПП "Българка"</a>
             </div>
         </div>
-        <li><a href="../gallery/gallery.html">Галерия</a></li>
+        <div class="dropdown">
+            <button class="dropbtn">галерия</button>
+            <div class="dropdown-content">
+                <a href="../gallery/gallery.html">НП "централен Балкан"</a>
+                <a href="../gallery/gallery2.html">ПП "Българка"</a>
+            </div>
+        </div>
         <li><a href="../contacts/contacts.html">Контакти</a></li>
     </ul>
 
-    <div class="w3-content w3-section" style="max-width:500px">
-        <img class="mySlides" src="../photos/зима централен балкан.jpg" style="width:1912px; height:500px;">
-        <img class="mySlides" src="../photos/НП почви.jpg" style="width:1912px; height:500px;">
-        <img class="mySlides" src="../photos/пропаст-lol.jpg" style="width:1912px; height:500px;">
-        <img class="mySlides" src="../photos//пролет централен балкан.jpg" style="width:1912px; height:500px;">
-    </div>
 
+    <h1 style="text-align:center;">Добре дошли в сърцето на Българската природа</h1>
+    <h2 style="text-align:center; width:80%; margin:auto;">Открийте величието на Национален парк "Централен Балкан" и
+        магията на Природен парк "Българка" – два от
+        най-забележителните природни кътчета в България, които съхраняват уникално биоразнообразие, културно наследство
+        и незабравими гледки.</h2>
+    <div>
+        <p class="slideshow">Национален парк "Централен Балкан"<br>
+            Разположен в централната част на Стара планина, този парк е дом на редки и застрашени видове, вековни гори и
+            живописни маршрути. Тук ще откриете географско описание относно Национален парк "Централен Балкан"
+            включваща: <br> - Основна информация за парка. <br> - Релеф. <br> - Климат и води.<br> - Почви и
+            растителност. <br> - Животински свят. <br> - Туристически обекти и забележителности.
+        </p>
+        <div style="max-width:500px; margin-left:20px; float:left; margin-top:103px;">
+            <img class="mySlides" src="../photos/зима централен балкан.jpg" style="width:480px;height: 350px;">
+            <img class="mySlides" src="../photos/НП почви.jpg" style="width:480px;height: 350px;">
+            <img class="mySlides" src="../photos/пропаст-lol.jpg" style="width:480px;height: 350px;">
+            <img class="mySlides" src="../photos//пролет централен балкан.jpg" style="width:480px;height: 350px;">
+        </div>
+    </div>
     <script>
         var myIndex = 0;
         carousel();
@@ -97,6 +117,22 @@
             setTimeout(carousel, 2000);
         }
     </script>
+    <!--<script>
+        var myIndex = 0;
+        carousel();
+
+        function carousel() {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            myIndex++;
+            if (myIndex > x.length) { myIndex = 1 }
+            x[myIndex - 1].style.display = "block";
+            setTimeout(carousel, 2000);
+        }
+    </script>-->
 </body>
 
 </html>

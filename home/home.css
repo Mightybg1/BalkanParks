@@ -7,7 +7,7 @@ ul {
     list-style: none;
     display: flex;
     flex-direction: row;
-    height:50px;
+    height: 50px;
     background-color: rgba(45, 248, 96, 1);
     gap: 7.5vw;
     justify-content: center;
@@ -18,7 +18,7 @@ li {
     display: flex;
     flex-direction: row;
     align-items: center;
-    width:auto;
+    width: auto;
 }
 
 li a {
@@ -34,3 +34,20 @@ li:hover {
     background-color: rgb(34, 202, 76);
     cursor: pointer;
 }
+
+.slideshow {
+text-align: left;
+font-size: 25px;
+width: 30%;
+margin-left: 20px;
+padding-top: 80px;
+float:left;
+}
+.slideshow1{
+    text-align: right;
+    font-size: 20px;
+    width: 25%;
+    margin-right: 20px;
+    padding-top: 80px;
+    float:left;
+    }

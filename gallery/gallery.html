@@ -1,70 +1,168 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <link rel="stylesheet" href="../home/home.css">
 
-        <style>
-            .dropbtn {
-                background-color: rgba(45, 248, 96, 1);
-                color: rgb(0, 0, 0);
-                padding: 16px;
-                font-size: 16px;
-                border: none;
-                cursor: pointer;
-                text-decoration: none;
-                font-family: 'Courier New', Courier, monospace;
-            }
-    
-            .dropbtn:hover {
-                background-color: rgb(34, 202, 76);
-            }
-    
-            .dropdown {
-                position: relative;
-                display: inline-block;
-            }
-    
-            .dropdown-content {
-                display: none;
-                position: absolute;
-                background-color: rgba(45, 248, 96, 1);
-                min-width: 160px;
-                box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-                z-index: 1;
-            }
-    
-            .dropdown-content a {
-                color: black;
-                padding: 12px 16px;
-                text-decoration: none;
-                display: block;
-            }
-    
-            .dropdown-content a:hover {
-                background-color: rgb(34, 202, 76)
-            }
-    
-            .dropdown:hover .dropdown-content {
-                display: block;
-            }
-    
-            .dropdown:hover .dropbtn {
-                background-color: rgb();
-            }
-        </style>
-    </head>
-    <body>
-        <ul>
-            <li><a href="../home/home.html">Начало</a></li>
-            <div class="dropdown">
-                <button class="dropbtn">Паркове</button>
-                <div class="dropdown-content">
-                    <a href="../parks/parks.html">НП "Централен Балкан"</a>
-                    <a href="../parks/parkTwo.html">ПП "Българка"</a>
-                </div>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=0.7">
+    <link rel="stylesheet" href="../home/home.css">
+    <link rel="stylesheet" href="../gallery/gallery.css">
+
+
+    <style>
+        .dropbtn {
+            background-color: rgba(45, 248, 96, 1);
+            color: rgb(0, 0, 0);
+            padding: 16px;
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+            text-decoration: none;
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+        .dropbtn:hover {
+            background-color: rgb(34, 202, 76);
+        }
+
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: rgba(45, 248, 96, 1);
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+        }
+
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+
+        .dropdown-content a:hover {
+            background-color: rgb(34, 202, 76)
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        .dropdown:hover .dropbtn {
+            background-color: rgb();
+        }
+    </style>
+    <style>
+        
+        table{
+            margin:auto;
+            margin-top:-5px;
+            margin-left:47px;
+        }
+    </style>
+</head>
+
+<body>
+    <ul>
+        <li><a href="../home/home.html">Начало</a></li>
+        <div class="dropdown">
+            <button class="dropbtn">Паркове</button>
+            <div class="dropdown-content">
+                <a href="../parks/parks.html">НП "Централен Балкан"</a>
+                <a href="../parks/parkTwo.html">ПП "Българка"</a>
             </div>
-            <li><a href="../gallery/gallery.html">Галерия</a></li>
-            <li><a href="../contacts/contacts.html">Контакти</a></li>
-        </ul>
-    </body>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn">галерия</button>
+            <div class="dropdown-content">
+                <a href ="../gallery/gallery.html">НП "централен Балкан"</a>
+                <a href ="../gallery/gallery2.html">ПП "Българка"</a>
+            </div>
+        </div>
+        <li><a href="../contacts/contacts.html">Контакти</a></li>
+    </ul>
+    <br>
+    <br>
+
+    <div style="margin-top:50px;">
+        <div class="aligning">
+            <img src="../photos/galleryPhotos/Bekleme-Troian-Balkan.jpeg" style="width:400px; height:300px;">
+            <img src="../photos/galleryPhotos/Пеещи скали.jpg" style="width:400px; height:300px;">
+            <img src="../photos/galleryPhotos/Скален мост.jpg" style="width:400px; height:300px;">
+        </div>
+        <div>
+            <table>
+                <tr>
+                    <th style="width:396px; height:40px; border:1px solid black;margin-top:-5px;">Арка на свободата</th>
+                    <th style="width:294px;"></th>
+                    <th style="width:396px; border:1px solid black;margin-top:-5px;">Пеещи скали</th>
+                    <th style="width:294px; border-top:none;"></th>
+                    <th style="width:396px; border:1px solid black;margin-top:-5px;">Скален мост</th>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <br>
+    <br>
+
+    <div style="margin-top:50px;">
+        <div class="aligning">
+            <img src="../photos/galleryPhotos/vr Botev.jpg" style="width:400px; height:300px;">
+            <img src="../photos/galleryPhotos/Козя стена.jpg" style="width:400px; height:300px;">
+            <img src="../photos/galleryPhotos/Куманица.jpg" style="width:400px; height:300px;">
+        </div>
+        <div>
+            <table>
+                <tr>
+                    <th style="width:396px;height:40px; border:1px solid black;margin-top:-5px;">Връх Ботев</th>
+                    <th style="width:294px;"></th>
+                    <th style="width:396px; border:1px solid black;margin-top:-5px;">Козя стена</th>
+                    <th style="width:294px; border-top:none;"></th>
+                    <th style="width:396px; border:1px solid black;margin-top:-5px;">Куманица</th>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <br>
+    <br>
+    <div style="margin-top:50px;">
+        <div class="aligning">
+            <img src="../photos/galleryPhotos/vidimsko-praskalo.jpg" style="width:400px; height:300px;">
+            <img src="../photos/galleryPhotos/карловското пръскало.jpg" style="width:400px; height:300px;">
+            <img src="../photos/galleryPhotos/черни осъм.jpg" style="width:400px; height:300px;">
+        </div>
+        <div>
+            <table>
+                <tr>
+                    <th style="width:396px; height:40px; border:1px solid black;margin-top:-5px;">Видимско пръскало</th>
+                    <th style="width:294px;"></th>
+                    <th style="width:396px; border:1px solid black;margin-top:-5px;">Карловско пръскало</th>
+                    <th style="width:294px; border-top:none;"></th>
+                    <th style="width:396px; border:1px solid black;margin-top:-5px;">Черни Осъм</th>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div style="margin-top:50px;">
+        <div class="aligning">
+            <img src="../photos/galleryPhotos/дива коза.jpg" style="width:400px; height:300px;">
+            <img src="../photos/galleryPhotos/Елен.webp" style="width:400px; height:300px;">
+        </div>
+        <div style="align-self:center;">
+            <table>
+                <tr>
+                    <th style="width:346px; height:40px;"></th>
+                    <th style="width:396px; border:1px solid black;margin-top:-5px;">Дива коза</th>
+                    <th style="width:294px;"></th>
+                    <th style="width:396px; border:1px solid black;margin-top:-5px;">Елен</th>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+
 </html>

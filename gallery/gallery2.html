@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=0.7">
+    <link rel="stylesheet" href="../home/home.css">
+    <link rel="stylesheet" href="../gallery/gallery.css">
+
+
+    <style>
+        .dropbtn {
+            background-color: rgba(45, 248, 96, 1);
+            color: rgb(0, 0, 0);
+            padding: 16px;
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+            text-decoration: none;
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+        .dropbtn:hover {
+            background-color: rgb(34, 202, 76);
+        }
+
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: rgba(45, 248, 96, 1);
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+        }
+
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+
+        .dropdown-content a:hover {
+            background-color: rgb(34, 202, 76)
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        .dropdown:hover .dropbtn {
+            background-color: rgb();
+        }
+    </style>
+    </head>
+    <body>
+        <ul>
+            <li><a href="../home/home.html">Начало</a></li>
+            <div class="dropdown">
+                <button class="dropbtn">Паркове</button>
+                <div class="dropdown-content">
+                    <a href="../parks/parks.html">НП "Централен Балкан"</a>
+                    <a href="../parks/parkTwo.html">ПП "Българка"</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn">галерия</button>
+                <div class="dropdown-content">
+                    <a href ="../gallery/gallery.html">НП "централен Балкан"</a>
+                    <a href ="../gallery/gallery2.html">ПП "Българка"</a>
+                </div>
+            </div>
+            <li><a href="../contacts/contacts.html">Контакти</a></li>
+        </ul>
+    </body>
+    </html>
