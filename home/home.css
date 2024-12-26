@@ -44,10 +44,8 @@ padding-top: 80px;
 float:left;
 }
 .slideshow1{
-    text-align: right;
-    font-size: 20px;
-    width: 25%;
-    margin-right: 20px;
-    padding-top: 80px;
     float:left;
-    }
+    width:70%;
+    font-size:24px;
+    margin-left:20px;
+}

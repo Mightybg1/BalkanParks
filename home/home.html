@@ -94,7 +94,7 @@
             включваща: <br> - Основна информация за парка. <br> - Релеф. <br> - Климат и води.<br> - Почви и
             растителност. <br> - Животински свят. <br> - Туристически обекти и забележителности.
         </p>
-        <div style="max-width:500px; margin-left:20px; float:left; margin-top:103px;">
+        <div style="max-width:500px; margin-left:20px; float:right; margin-top:103px; margin-right:20px;">
             <img class="mySlides" src="../photos/зима централен балкан.jpg" style="width:480px;height: 350px;">
             <img class="mySlides" src="../photos/НП почви.jpg" style="width:480px;height: 350px;">
             <img class="mySlides" src="../photos/пропаст-lol.jpg" style="width:480px;height: 350px;">
@@ -103,9 +103,8 @@
     </div>
     <script>
         var myIndex = 0;
-        carousel();
-
-        function carousel() {
+        carousel12();
+        function carousel12() {
             var i;
             var x = document.getElementsByClassName("mySlides");
             for (i = 0; i < x.length; i++) {
@@ -114,25 +113,46 @@
             myIndex++;
             if (myIndex > x.length) { myIndex = 1 }
             x[myIndex - 1].style.display = "block";
+            setTimeout(carousel12, 2000);
+        }
+    </script>
+    <div>
+        <hr style="margin-top:0; height:1px; background-color:rgb(0, 0, 0); width:1890px;">
+        <div class="slideshow1">
+            <br>
+            <br>
+            <p>Природен парк "Българка"<br>
+                Скрил се в живописните северни склонове на Балкана, паркът разказва<br> истории за миналото, културата и
+                традициите на региона.<br> Тук ще откриете географско описание относно Национален парк "Централен
+                Балкан"
+                включваща: <br> - Основна информация за парка. <br> - Релеф. <br> - Климат и води.<br> - Почви и
+                растителност. <br> - Животински свят. <br> - Туристически обекти и забележителности.</p>
+        </div>
+        <div>
+            <div style="max-width:500px; float:right; margin-right:20px;">
+                <img class="mySlides1" src="../photos/пп българка зима.jpg" style="width:480px;height: 350px;">
+                <img class="mySlides1" src="../photos/пп българка лято.png" style="width:480px;height: 350px;">
+                <img class="mySlides1" src="../photos/пп българка релеф1.jpg" style="width:480px;height: 350px;">
+                <img class="mySlides1" src="../photos/пп българка планина.jpg" style="width:480px;height: 350px;">
+            </div>
+        </div>
+    </div>
+    <script>
+        var myIndex1 = 0;
+        carousel();
+
+        function carousel() {
+            var i;
+            var x = document.getElementsByClassName("mySlides1");
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            myIndex1++;
+            if (myIndex1 > x.length) { myIndex1 = 1 }
+            x[myIndex1 - 1].style.display = "block";
             setTimeout(carousel, 2000);
         }
     </script>
-    <!--<script>
-        var myIndex = 0;
-        carousel();
-
-        function carousel() {
-            var i;
-            var x = document.getElementsByClassName("mySlides");
-            for (i = 0; i < x.length; i++) {
-                x[i].style.display = "none";
-            }
-            myIndex++;
-            if (myIndex > x.length) { myIndex = 1 }
-            x[myIndex - 1].style.display = "block";
-            setTimeout(carousel, 2000);
-        }
-    </script>-->
 </body>
 
 </html>
