@@ -66,6 +66,7 @@ p{
     width:200px;
     margin-bottom:10px;
     font-size:20px;
+    cursor: pointer;
 }
 .positioning{
     display:flex;
@@ -74,7 +75,9 @@ p{
 .lastButton2{
     background-color:rgb(38, 252, 145);
     border:1px solid black;
-    height:50px;
-    width:200px;
+    height:75px;
+    width:340px;
+    margin-bottom:10px;
     font-size:20px;
+    cursor: pointer;
 }
