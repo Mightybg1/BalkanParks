@@ -16,6 +16,7 @@ textarea {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    margin-bottom:120px;
 }
 
 form {
@@ -41,4 +42,14 @@ form {
     flex-direction: row;
     justify-content: center;
     width:100%;
+}
+.container2 {
+    bottom: 0;
+    position:absolute;
+    display:flex;
+    flex-direction: row;
+    justify-content:center;
+    gap:5px;
+    margin-left:400px;
+    margin-bottom:10px;
 }
